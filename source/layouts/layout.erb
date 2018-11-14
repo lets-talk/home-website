@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,20 +11,26 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
     <%= stylesheet_link_tag "site" %>
   </head>
+
   <body>
 
-    <%= partial "navigation" %>
+    <%= partial  "partials/navigation" %>
 
     <main>
+
       <%= yield %>
 
-      <%= partial "footer" %>
+      <%= partial "partials/footer" %>
+
       <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
       <%= javascript_include_tag "site" %>
+
     </main>
 
   </body>
+
 </html>

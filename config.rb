@@ -17,7 +17,7 @@
 # 1. DIRECTORIES
 
 set :source,         "source"
-set :build_dir,      "public"
+set :build_dir,      "docs"
 
 set :data_dir,       "data"
 set :locales_dir,    "locales"
@@ -36,12 +36,22 @@ set :fonts_dir,      "fonts"
 
 # 2. ASSETS
 
+activate :sprockets
+
 after_configuration do
+    sprockets.append_path File.join( root, "bower/" )
+    sprockets.append_path File.join( root, "styles/" )
+end
+
+# sprockets.append_path "#{root}/styles/"
+
+# after_configuration do
+#   sprockets.append_path "#{root}/styles"
 # sprockets.append_path "#{root}/assets/stylesheets"
 # sprockets.append_path "#{root}/assets/javascripts"
 # sprockets.append_path "#{root}/vendor/bower"
 # sprockets.import_asset 'jquery'
-end
+# end
 
 
 
