@@ -1,0 +1,68 @@
+// Color palette
+
+$white:                      #fff !default;
+$black:                      #000 !default;
+
+$blue:                       #007bff !default;
+$indigo:                     #6610f2 !default;
+$purple:                     #6f42c1 !default;
+$pink:                       #e83e8c !default;
+$red:                        #dc3545 !default;
+$orange:                     #fd7e14 !default;
+$yellow:                     #ffc107 !default;
+$green:                      #28a745 !default;
+$teal:                       #20c997 !default;
+$cyan:                       #17a2b8 !default;
+
+$brand-accent:               #FF008C;
+$brand-altern:               #662482;
+
+
+// Color system
+
+$color-accent:               $brand-accent !default;
+$color-altern:               $brand-altern !default;
+$color-default:              rgba($black,.8) !default;
+
+$color-success:              $green !default;
+$color-info:                 $cyan !default;
+$color-warning:              $yellow !default;
+$color-danger:               $red !default;
+
+$color-background:           $white !default;
+$color-foreground:           rgba($black,.9) !default;
+
+
+// Color themes
+$color-light:                $color-background !default;
+$color-dark:                 $color-foreground !default;
+
+$theme-light:                $color-dark !default;
+$theme-dark:                 $color-light !default;
+
+$color-dark-primary:         rgba($theme-light,.9);
+$color-dark-secondary:       rgba($theme-light,.7);
+$color-dark-disabled:        rgba($theme-light,.3);
+$color-dark-hint:            rgba($theme-light,.3);
+$color-dark-divider:         rgba($theme-light,.1);
+
+$color-light-primary:        $theme-dark;
+$color-light-secondary:      rgba($theme-dark,.8);
+$color-light-disabled:       rgba($theme-dark,.4);
+$color-light-hint:           rgba($theme-dark,.4);
+$color-light-divider:        rgba($theme-dark,.2);
+
+
+$color-accent-darkest:       darken($color-accent,50%);
+$color-accent-darker:        darken($color-accent,30%);
+$color-accent-dark:          darken($color-accent,10%);
+$color-accent-light:         rgba($color-accent,.2);
+$color-accent-lighter:       rgba($color-accent,.1);
+$color-accent-lightest:      rgba($color-accent,.05);
+
+$color-default-darkest:       darken($color-default,50%);
+$color-default-darker:        darken($color-default,30%);
+$color-default-dark:          darken($color-default,10%);
+$color-default-light:         rgba($color-default,.2);
+$color-default-lighter:       rgba($color-default,.1);
+$color-default-lightest:      rgba($color-default,.05);

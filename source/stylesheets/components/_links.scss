@@ -1,0 +1,20 @@
+/* LINKS */
+/* ========================================================================== */
+
+a {
+	& {
+		color: $color-accent;
+	}
+	&:hover {
+		color: darken($color-accent,8%);
+	}
+}
+
+.link-dark {
+	& {
+		color: $color-dark-secondary;
+	}
+	&:hover {
+		color: $color-dark-primary;
+	}
+}

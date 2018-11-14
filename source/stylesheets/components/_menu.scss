@@ -1,0 +1,40 @@
+/* MENU */
+/* ========================================================================== */
+
+.menu .menu {
+	margin-left: 0;
+}
+
+.menu-right {
+	float: right;
+}
+
+.menu-item {
+	list-style: none;
+	margin-bottom: $space-x1;
+	font-size: $font-size-footnote;
+}
+
+.menu-item--inline {
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: top;
+
+	.menu-left & {
+		margin-right: $space-x2;
+	}
+	.menu-right & {
+		margin-left: $space-x2;
+	}
+}
+
+.menu-item-link {
+	text-decoration: none;
+}
+
+.menu-text {
+
+}
+.menu-blocks {
+
+}

@@ -1,0 +1,59 @@
+/* TYPOGRAPHY */
+/* ========================================================================== */
+
+
+// Display
+
+.type-mega {
+	font-size:   $font-size-mega;
+	line-height: $line-height-mega;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+}
+.type-jumbo {
+	font-size:   $font-size-jumbo;
+	line-height: $line-height-jumbo;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+}
+.type-display {
+	font-size:   $font-size-display;
+	line-height: $line-height-display;
+}
+
+
+// Heading
+
+.type-headline {
+	font-size:   $font-size-headline;
+	line-height: $line-height-headline;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+}
+
+// .type-title {
+//   font-size:   24px;
+//   font-family: $font-family-title;
+//   font-weight: $font-weight-bold;
+//   margin-bottom: $space-x2;
+// }
+//
+// .type-subhead {
+//   font-size:   24px;
+//   font-family: $font-family-title;
+//   font-weight: $font-weight-bold;
+//   margin-bottom: $space-x2;
+// }
+
+
+// Content
+
+.type-body {
+	font-size:   $font-size-body;
+	line-height: $line-height-body;
+}
+
+.type-footnote {
+	font-size:   $font-size-footnote;
+	line-height: $line-height-footnote;
+}

@@ -1,0 +1,18 @@
+<nav id="navigation" class="navbar fixed-top">
+  <div class="container">
+
+    <h3 class="navbar-brand">
+      <%= image_tag 'brand-letstalk.svg', class: 'navbar-brand-image' %>
+      <span class="text-hide">Let´s Talk</span>
+    </h3>
+
+    <ul class="navbar-menu menu menu-right">
+      <% data.navigation.header.each do |item| %>
+      <li class="menu-item menu-item--inline">
+        <%= link_to item.label, item.url, class: 'menu-item-link link-dark' %>
+      </li>
+      <% end %>
+    </ul>
+
+  </div>
+</nav>

@@ -1,0 +1,33 @@
+/* SPACERS */
+/* ========================================================================== */
+
+@mixin margin-classes($infix,$size) {
+  .m-#{$infix},  .m-#{$infix}  { margin:        $size !important; }
+  .my-#{$infix}, .mt-#{$infix} { margin-top:    $size !important; }
+  .mx-#{$infix}, .mr-#{$infix} { margin-right:  $size !important; }
+  .my-#{$infix}, .mb-#{$infix} { margin-bottom: $size !important; }
+  .mx-#{$infix}, .ml-#{$infix} { margin-left:   $size !important; }
+}
+@mixin padding-classes($infix,$size) {
+  .p-#{$infix},  .p-#{$infix}  { padding:        $size !important; }
+  .py-#{$infix}, .pt-#{$infix} { padding-top:    $size !important; }
+  .px-#{$infix}, .pr-#{$infix} { padding-right:  $size !important; }
+  .py-#{$infix}, .pb-#{$infix} { padding-bottom: $size !important; }
+  .px-#{$infix}, .pl-#{$infix} { padding-left:   $size !important; }
+}
+
+
+@each $infix, $size in $spacers {
+  @include margin-classes($infix,$size);
+  @include padding-classes($infix,$size);
+}
+
+@each $name, $size in $breakpoints {
+  @include respond(from $name) {
+    @each $infix, $size in $spacers {
+      $infix: "#{$name}-#{$infix}";
+      @include margin-classes($infix,$size);
+      @include padding-classes($infix,$size);
+    }
+  }
+}

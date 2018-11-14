@@ -1,0 +1,31 @@
+.fixed-top,
+.fixed-right,
+.fixed-bottom,
+.fixed-left {
+    position: fixed;
+    z-index: 1030;
+}
+
+.fixed-top {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.fixed-right {
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fixed-bottom {
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.fixed-left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+}

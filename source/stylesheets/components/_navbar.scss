@@ -1,0 +1,32 @@
+/* NAVBAR */
+/* ========================================================================== */
+
+.navbar {
+	width: 100%;
+	padding: $space-x3 0;
+	transition-property: padding, background;
+	transition-duration: $default-timing;
+}
+
+.navbar-brand {
+	display: inline-block;
+	margin: 0;
+}
+.navbar-brand-image {
+	vertical-align: middle;
+}
+.navbar-menu {
+	margin: 0;
+
+	.menu-item-link:hover {
+		text-decoration: underline;
+	}
+}
+
+.navbar-changed {
+	background-color: $color-light;
+	padding: $space-x2 0;
+	box-shadow: 0 1px  0px 0 rgba($color-dark,0.05),
+	            0 3px 20px 0 rgba($color-dark,0.05),
+	            0 1px  2px 0 rgba($color-dark,0.10);
+}

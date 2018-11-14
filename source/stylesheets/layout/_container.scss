@@ -1,0 +1,57 @@
+/* CONTAINER */
+/* ========================================================================== */
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-right: $container-margin;
+  padding-left: $container-margin;
+  width: 100%;
+}
+
+.container-fluid {
+  width: $container-fluid;
+}
+
+.container-xs {
+  max-width: $container-xs;
+}
+.container-sm {
+  max-width: $container-sm;
+}
+.container-md {
+  max-width: $container-md;
+}
+.container-lg {
+  max-width: $container-lg;
+}
+.container-xl {
+  max-width: $container-xl;
+}
+
+.container-fixed {
+  max-width: $container-fixed;
+}
+
+/* For devices larger than 400px */
+@include respond(from tablet) {
+  .container {
+    padding-right: $container-md-margin;
+    padding-left: $container-md-margin;
+  }
+  .container-fixed {
+    max-width: 85%;
+  }
+}
+
+/* For devices larger than 550px */
+@include respond(from larger) {
+  .container {
+    padding-right: $container-lg-margin;
+    padding-left: $container-lg-margin;
+  }
+  .container-fixed {
+    max-width: 80%;
+  }
+}

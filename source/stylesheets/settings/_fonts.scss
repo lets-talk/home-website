@@ -1,0 +1,14 @@
+// Fonts
+
+$font-family-montserrat:     'Montserrat', sans-serif;
+$font-family-opensans:       'Open Sans', sans-serif;
+
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-opensans !default;
+$font-family-title:           $font-family-montserrat !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-base:            $font-weight-light !default;

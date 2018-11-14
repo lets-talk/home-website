@@ -1,0 +1,63 @@
+/* GRID */
+/* ========================================================================== */
+
+.row {
+  & {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container > & {
+    margin-right: ($column-gutter / -2);
+    margin-left: ($column-gutter / -2);
+  }
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: ($column-gutter / 2);
+  padding-left: ($column-gutter / 2);
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%; // Reset earlier grid tiers
+}
+
+@for $i from 1 through $column-count {
+  $size: $i;
+  .col-#{$size} {
+    flex: 0 0 percentage($size / $column-count);
+    max-width: percentage($size / $column-count);
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+
+  @include respond(from $breakpoint) {
+
+    .col-#{$breakpoint} {
+      flex-basis: 0;
+      flex-grow: 1;
+      max-width: 100%;
+    }
+
+    .col-#{$breakpoint}-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; // Reset earlier grid tiers
+    }
+
+    @for $i from 1 through $column-count {
+      $size: $i;
+
+      .col-#{$breakpoint}-#{$size} {
+        flex: 0 0 percentage($size / $column-count);
+        max-width: percentage($size / $column-count);
+      }
+    }
+  }
+
+}

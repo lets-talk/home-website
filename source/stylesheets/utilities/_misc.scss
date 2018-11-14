@@ -1,0 +1,67 @@
+/* UTILITIES */
+/* ========================================================================== */
+
+
+// @import "utilities/colors";
+// @import "utilities/shadows";
+
+
+// Utilities
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.u-pull-right {
+  float: right !important;
+}
+.u-pull-left {
+  float: left !important;
+}
+
+
+// Display
+
+.d-none         { display: none !important; }
+.d-inline       { display: inline !important; }
+.d-block        { display: block !important; }
+.d-inline-block { display: inline-block !important; }
+
+
+// Position
+
+.p-relative { position: relative !important; }
+.p-absolute { position: absolute !important; }
+.p-static   { position: static !important; }
+.p-fixed    { position: fixed !important; }
+
+// Clearing
+// Self Clearing Goodness
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+// ForCSS image replacement
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+.image-2x {
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+header:
+  -
+    label: Que es Lets Talk
+    url: "/#"
+  -
+    label: Producto
+    url: "/#"
+  -
+    label: Preguntas Frecuentes
+    url: "/#"
+  -
+    label: Contacto
+    url: "/#"
+
+footer:
+  -
+    caption: Sobre
+    links:
+      -
+        label: Inicio
+        url: "/#"
+      -
+        label: ¿Que es?
+        url: "/#"
+      -
+        label: Contacto
+        url: "/#"
+  -
+    caption: Producto
+    links:
+      -
+        label: Centralización
+        url: "/#"
+      -
+        label: Automatización
+        url: "/#"
+      -
+        label: Business Inteligence
+        url: "/#"
+      -
+        label: Operador
+        url: "/#"
+  -
+    caption: Ayuda
+    links:
+      -
+        label: Privacidad
+        url: "/#"
+      -
+        label: Términos
+        url: "/#"
+      -
+        label: Asistencia
+        url: "/"

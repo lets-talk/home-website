@@ -1,0 +1,64 @@
+title: Mensajería instantánea para grandes empresas
+
+benefits:
+  - Todos tus canales de chat, centralizados
+  - Dirige, filtra y asigna conversaciones automáticamente.
+  - Bots de atención, inteligencia artificial y reglas de automatización.
+
+cta:
+  title: ¿Quieres saber más? Hablemos.
+  placeholder: Correo electrónico o teléfono
+  action: Agenda una demo
+
+
+headline: Let’s Talk le dará fuerza a tu equipo de trabajo, modelará la experiencia de tus clientes y aumentará la eficiencia de tu organización con tus reglas de negocio.
+
+overview:
+  -
+    title: Todo bajo control en una sola plataforma
+    description: Let’s Talk te ayuda a manejar grandes volúmenes de información compleja de forma simple y a sacarle el máximo provecho a los datos disponibles.
+    action: Conoce mas sobre Centralización
+    url: "#"
+
+  -
+    title: Comunicación fluida y organizada
+    description: Soportamos integración con poderosa inteligencia artificial y bots de autoatención. Todas las interacciones quedan registradas, siempre.
+    action: Conoce mas sobre Automatización
+    url: "#"
+
+  -
+    title: Reportería completa en tu poder
+    description: Contamos con estadísticas en tiempo real y reportes descargables en formato Excel con datos altos en vitaminas para la Inteligencia de Negocios de tu organización.
+    action: Conoce mas sobre Business Inteligence
+    url: "#"
+
+  -
+    title: Multitasking simple e intuitivo
+    description: Le ponemos el acelerador a la eficiencia con la posibilidad de atender múltiples casos simultáneamente, mejorando la conversión en ventas.
+    action: Conoce mas sobre Operador
+    url: "#"
+
+
+contact:
+    title: Hablemos sobre lo que necesitas
+    description: Contactanos llenando el formulario o escribiendonos a
+    action: ventas@letstalk.com
+    url: mailto:ventas@letstalk.com
+
+    form:
+      name: Nombre
+      email: Correo electrónico o teléfono
+      company: Empresa
+      message: Tu mensaje
+      submit: ENVIAR MENSAJE
+
+    sales:
+      label: ventas@letstalk.com
+      url: mailto:ventas@letstalk.com
+
+    facebook:
+      label: facebook.com/letstalk
+      url: http:www.facebook.com/letstalk
+
+
+footnote: Copyright © 2018 Let´s Talk. Todos los derechos reservadosder

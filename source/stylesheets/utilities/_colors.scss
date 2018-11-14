@@ -1,0 +1,57 @@
+/* COLORS */
+/* ========================================================================== */
+
+// Semantics
+
+.text-success        { color: $color-success; }
+.text-warning        { color: $color-warning; }
+.text-danger         { color: $color-danger; }
+
+
+// Brand
+
+.text-accent        { color: $color-success; }
+.text-altern        { color: $color-success; }
+
+
+// Base theme
+
+.text-primary       { color: $color-dark-primary; }
+.text-secondary     { color: $color-dark-secondary; }
+.text-disabled      { color: $color-dark-disabled; }
+.text-hint          { color: $color-dark-hint; }
+.text-divider       { color: $color-dark-divider; }
+
+
+// Light theme
+
+.theme-light {
+	.text-primary       { color: $color-dark-primary; }
+	.text-secondary     { color: $color-dark-secondary; }
+	.text-disabled      { color: $color-dark-disabled; }
+	.text-hint          { color: $color-dark-hint; }
+	.text-divider       { color: $color-dark-divider; }
+}
+
+.text-dark-primary       { color: $color-dark-primary; }
+.text-dark-secondary     { color: $color-dark-secondary; }
+.text-dark-disabled      { color: $color-dark-disabled; }
+.text-dark-hint          { color: $color-dark-hint; }
+.text-dark-divider       { color: $color-dark-divider; }
+
+
+// Light theme
+
+.theme-dark {
+	.text-primary       { color: $color-light-primary; }
+	.text-secondary     { color: $color-light-secondary; }
+	.text-disabled      { color: $color-light-disabled; }
+	.text-hint          { color: $color-light-hint; }
+	.text-divider       { color: $color-light-divider; }
+}
+
+.text-light-primary       { color: $color-light-primary; }
+.text-light-secondary     { color: $color-light-secondary; }
+.text-light-disabled      { color: $color-light-disabled; }
+.text-light-hint          { color: $color-light-hint; }
+.text-light-divider       { color: $color-light-divider; }

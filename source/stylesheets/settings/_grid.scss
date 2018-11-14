@@ -1,0 +1,56 @@
+// Base grid
+
+$unit:                8px !default;
+$half:                $unit / 2 !default;
+
+$space-x0_5:          $unit * 0.5;   //   4px
+$space-x1:            $unit * 1;     //   8px
+$space-x1_5:          $unit * 1.5;   //  12px
+$space-x2:            $unit * 2;     //  16px
+$space-x3:            $unit * 3;     //  24px
+$space-x4:            $unit * 4;     //  32px
+$space-x5:            $unit * 5;     //  40px
+
+$space-x10:           $unit * 10;    //  80px
+$space-x15:           $unit * 15;    // 120px
+$space-x20:           $unit * 20;    // 160px
+$space-x30:           $unit * 30;    // 240px
+
+$spacers: (
+	0:      0,
+	x0_5:   $space-x0_5,
+	x1:     $space-x1,
+	x1_5:   $space-x1_5,
+	x2:     $space-x2,
+	x3:     $space-x3,
+	x4:     $space-x4,
+	x5:     $space-x5,
+
+	x10:    $space-x10,
+	x15:    $space-x15,
+	x20:    $space-x20,
+	x30:    $space-x30
+);
+
+
+// Container
+
+$container-margin:     $space-x2;
+$container-md-margin:  $space-x3;
+$container-lg-margin:  $space-x4;
+
+$container-xs:         320px;  //   40x
+$container-sm:         480px;  //   60x
+$container-md:         800px;  //  100x
+$container-lg:         1100px; // ~136x
+$container-xl:         1440px; //  180x
+
+$container-fluid:      100%;
+$container-fixed:      960px;  //  120x
+
+
+// Columns
+
+$column-count:  12;
+$column-gutter: $space-x4;
+$column-size:   100%/$column-count;

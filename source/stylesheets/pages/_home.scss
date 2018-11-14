@@ -1,0 +1,79 @@
+/* WEBSITE */
+/* ========================================================================== */
+
+.navbar-menu {
+    margin-top: $space-x1;
+}
+
+.section {
+	padding-top: $space-x20;
+}
+
+// Illustrations
+.image-2x {
+	position: absolute;
+}
+
+.graphic-webchat {
+	width: 110%;
+	top: -15%;
+	right: -30%;
+}
+.graphic-overview {
+	width: 200%;
+	top: -40%;
+	left: 10%;
+}
+.graphic-contact {
+	top: 40%;
+	right: -10%;
+}
+
+.graphic-plant-mini   {
+	width: 100%;
+}
+
+.graphic-plants-large {
+	width: 780px;
+	left: -20px;
+	bottom: -130px;
+}
+.graphic-plants-small {
+	width: 300px;
+	right: -30px;
+	bottom: -80px;
+}
+.graphic-selknam      {
+	width: 280px;
+	right: 25%;
+	bottom: -50px;
+}
+
+// Backgrounds
+
+.graphic-background-top {
+	width: 60%;
+	opacity: .5;
+	z-index: -1;
+	right: -5%;
+	top: 0;
+}
+
+.graphic-background-bottom {
+	width: 1000px;
+	right: -80px;
+	bottom: -330px;
+}
+
+
+#featured {
+	height: 100vh;
+	min-height: 760px;
+	padding: $space-x10 0;
+	display: flex;
+	align-items: center;
+}
+
+#overview {}
+#contact {}
+#footer {}
