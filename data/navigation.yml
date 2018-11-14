@@ -1,16 +1,13 @@
 header:
   -
-    label: Que es Lets Talk
-    url: "/#"
+    label: Inicio
+    url: "/#featured"
   -
     label: Producto
-    url: "/#"
-  -
-    label: Preguntas Frecuentes
-    url: "/#"
+    url: "/#overview"
   -
     label: Contacto
-    url: "/#"
+    url: "/#contact"
 
 footer:
   -
@@ -18,13 +15,13 @@ footer:
     links:
       -
         label: Inicio
-        url: "/#"
+        url: "/#featured"
       -
         label: ¿Que es?
-        url: "/#"
+        url: "/#overview"
       -
         label: Contacto
-        url: "/#"
+        url: "/#contact"
   -
     caption: Producto
     links:
@@ -45,10 +42,10 @@ footer:
     links:
       -
         label: Privacidad
-        url: "/#"
+        url: "/privacy"
       -
         label: Términos
-        url: "/#"
+        url: "/terms"
       -
         label: Asistencia
-        url: "/"
+        url: "/#"

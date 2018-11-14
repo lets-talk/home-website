@@ -4,19 +4,19 @@
 
 // Display
 
-.type-mega {
+h1, .type-mega {
 	font-size:   $font-size-mega;
 	line-height: $line-height-mega;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
-.type-jumbo {
+h2, .type-jumbo {
 	font-size:   $font-size-jumbo;
 	line-height: $line-height-jumbo;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
-.type-display {
+h3, .type-display {
 	font-size:   $font-size-display;
 	line-height: $line-height-display;
 }
@@ -24,26 +24,28 @@
 
 // Heading
 
-.type-headline {
+h4, .type-headline {
 	font-size:   $font-size-headline;
 	line-height: $line-height-headline;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
 
-// .type-title {
-//   font-size:   24px;
-//   font-family: $font-family-title;
-//   font-weight: $font-weight-bold;
-//   margin-bottom: $space-x2;
-// }
-//
-// .type-subhead {
-//   font-size:   24px;
-//   font-family: $font-family-title;
-//   font-weight: $font-weight-bold;
-//   margin-bottom: $space-x2;
-// }
+h5, .type-title {
+	font-size:   $font-size-title;
+	line-height: $line-height-title;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+	margin-bottom: $space-x2;
+}
+
+h6, .type-subhead {
+	font-size:   $font-size-subhead;
+	line-height: $line-height-subhead;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+	margin-bottom: $space-x2;
+}
 
 
 // Content
