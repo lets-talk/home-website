@@ -1,0 +1,43 @@
+-
+  name: stripe
+  blocker: false (*)
+  options:
+    style: stick | spaced
+    position: top | bottom
+    width: 100%
+    height: auto | small | medium | large | custom
+-
+  name: bubble
+  blocker: false (*)
+  options:
+    style: spaced | stick | stick-to-side
+    position: bottom | middle | top | custom
+    align: right | center | left (not for custom)
+    width: small
+    height: auto | custom
+-
+  name: modal
+  blocker: true | false (*)
+  options:
+    style: spaced | stick
+    position: middle | top | bottom
+    align: center | left | right
+    width: medium | large (width)
+    height: auto | custom
+-
+  name: panel
+  blocker: false | true (*)
+  options:
+    style: spaced | stick | stick-to-side
+    position: bottom | middle | top | custom
+    align: right | center | left (not for custom)
+    width: medium | large (width)
+    height: auto | custom
+-
+  name: drawer
+  blocker: false (*)
+  options:
+    style: stick | spaced | stick-to-side
+    align: right | left
+    width: medium | large
+    height: 100%

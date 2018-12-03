@@ -10,8 +10,12 @@
 
 # 1. DIRECTORIES
 
-set :source,         "source"
-set :build_dir,      "docs"
+
+# set :source,         "notifications"
+# set :build_dir,      "docs/notifications"
+
+set :source,       "source"
+set :build_dir,    "docs"
 
 set :data_dir,       "data"
 set :locales_dir,    "locales"
@@ -32,7 +36,7 @@ set :fonts_dir,      "fonts"
 activate :sprockets
 
 after_configuration do
-    sprockets.append_path File.join( root, "bower/" )
+    # sprockets.append_path File.join( root, "bower/" )
     sprockets.append_path File.join( root, "styles/" )
 end
 
@@ -44,7 +48,7 @@ end
 
 activate :directory_indexes
 
-set :index_file, "home.html"
+set :index_file, "index.html"
 
 page '/*.xml', layout: false
 page '/*.json', layout: false

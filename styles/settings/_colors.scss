@@ -20,6 +20,7 @@ $brand-altern:               #662482;
 
 // Color system
 
+
 $color-accent:               $brand-accent !default;
 $color-altern:               $brand-altern !default;
 $color-default:              rgba($black,.8) !default;
@@ -30,15 +31,33 @@ $color-warning:              $yellow !default;
 $color-danger:               $red !default;
 
 $color-background:           $white !default;
-$color-foreground:           rgba($black,.9) !default;
+$color-surface:              $white !default;
+$color-text:                 rgba($black,.9) !default;
+$color-inverse:              $white !default;
+
+
+
+
+
+
+
+
+
 
 
 // Color themes
-$color-light:                $color-background !default;
-$color-dark:                 $color-foreground !default;
+$color-dark:                 $color-text !default;
+$color-light:                $color-inverse !default;
 
 $theme-light:                $color-dark !default;
 $theme-dark:                 $color-light !default;
+
+
+$body-bg:                     $color-background !default;
+$body-color:                  rgba($theme-light,.9) !default;
+
+
+
 
 $color-dark-primary:         rgba($theme-light,.9);
 $color-dark-secondary:       rgba($theme-light,.7);

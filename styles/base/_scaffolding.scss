@@ -1,81 +1,80 @@
 // Scaffold
 
-$body-bg:                     $color-background !default;
-$body-color:                  rgba($theme-light,.9) !default;
+@include export-once("base/scaffolding") {
+  @if $include-scaffolding-styles {
+
+    /* SCAFFOLDING */
+    /* ========================================================================== */
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    //::selection {}
+    //::scrollbar {}
+
+    // Base Styles
+
+    html {
+      font-size: 100%;
+    }
+
+    body {
+      font-size: 16px; /* currently ems cause chrome bug misinterpreting rems on body element */
+      line-height: 1.5;
+      font-weight: 400;
+      font-family: $font-family-base;
+      color: #222;
+    }
+
+    // Spacing
+
+    button,
+    .button {
+      margin-bottom: 1rem;
+    }
+
+    input,
+    textarea,
+    select,
+    fieldset {
+      margin-bottom: 1rem;
+    }
+
+    pre,
+    blockquote,
+    dl,
+    figure,
+    table,
+    p,
+    ul,
+    ol,
+    form {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-top: 0;
+    }
 
 
-/* SCAFFOLDING */
-/* ========================================================================== */
+    // Misc
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+    hr {
+      margin-top: 3rem;
+      margin-bottom: 3.5rem;
+      border-width: 0;
+      border-top: 1px solid #E1E1E1;
+    }
 
-//::selection {}
-//::scrollbar {}
-
-// Base Styles
-
-html {
-  font-size: 100%;
-}
-
-body {
-  font-size: 16px; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.5;
-  font-weight: 400;
-  font-family: $font-family-base;
-  color: #222;
-}
-
-main {
-  overflow: hidden;
-}
-
-// Spacing
-
-button,
-.button {
-  margin-bottom: 1rem;
-}
-
-input,
-textarea,
-select,
-fieldset {
-  margin-bottom: 1rem;
-}
-
-pre,
-blockquote,
-dl,
-figure,
-table,
-p,
-ul,
-ol,
-form {
-  margin-bottom: 1rem;
-}
-
-p {
-  margin-top: 0;
-}
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
 
 
-// Misc
-
-hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #E1E1E1;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
+  }
 }

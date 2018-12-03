@@ -1,3 +1,7 @@
+@include export-once("components/tables") {
+	@if $include-tables-styles {
+
+
 /* TYPOGRAPHY */
 /* ========================================================================== */
 
@@ -59,3 +63,6 @@ h6, .type-subhead {
 	font-size:   $font-size-footnote;
 	line-height: $line-height-footnote;
 }
+
+
+}} // End export

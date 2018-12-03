@@ -1,5 +1,10 @@
+@include export-once("components/tables") {
+	@if $include-tables-styles {
+
+
 /* TABLES */
 /* ========================================================================== */
+
 
 th,
 td {
@@ -17,3 +22,6 @@ th:last-child,
 td:last-child {
   padding-right: 0;
 }
+
+
+}} // End export

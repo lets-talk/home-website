@@ -1,3 +1,7 @@
+@include export-once("utilities/misc") {
+  @if $include-misc-classes {
+
+
 /* UTILITIES */
 /* ========================================================================== */
 
@@ -65,3 +69,5 @@
 .image-2x {
   width: 100%;
 }
+
+}} // End Export

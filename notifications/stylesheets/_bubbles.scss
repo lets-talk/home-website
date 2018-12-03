@@ -1,0 +1,201 @@
+//
+//	1. Variables
+//	2. Message box
+//	3. Spaced from edges
+//	4. Stick to edges
+//	5. Positions
+//	   5.1 Sides positions
+//	   5.2 Top positions
+//	   5.3 Middle positions
+//	   5.4 Botom positions
+//	   5.5 Custom position
+//	6 Base sizes
+//	7 Predefined sizes
+//
+
+
+//	VARIABLES
+
+$selk-bubble-background:      $color-surface;
+$selk-bubble-shadow:          0 2px 8px 0 rgba(29,40,56,0.15);
+$selk-bubble-small-size:      340px;
+$selk-bubble-medium-size:     460px;
+$selk-bubble-large-size:      640px;
+$selk-bubble-radius:          6px;
+$selk-bubble-padding:         $unit-x1_5 $unit-x2;
+$selk-bubble-margin:          $unit-x4;
+
+//	MESSAGE BOX
+
+.selk-message {
+	position: absolute;
+	padding: $selk-bubble-padding;
+	border-radius: $selk-bubble-radius;
+	background-color: $selk-bubble-background;
+	box-shadow: $selk-bubble-shadow;
+}
+
+// SPACED FROM EDGES
+
+.is-spaced {
+	top:    $selk-bubble-margin !important;
+	right:  $selk-bubble-margin !important;
+	left:   $selk-bubble-margin !important;
+	bottom: $selk-bubble-margin !important;
+}
+
+// STICK TO EDGES
+
+.is-full,
+.is-stick {
+	top:    0 !important;
+	right:  0 !important;
+	left:   0 !important;
+	bottom: 0 !important;
+	border-radius: 0 !important;
+}
+
+.is-stick-on-top    {
+	top: 0 !important;
+	border-top-right-radius: 0 !important;
+	border-top-left-radius:  0 !important;
+}
+.is-stick-on-right  {
+	right: 0 !important;
+	border-top-right-radius:    0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+.is-stick-on-left   {
+	left: 0 !important;
+	border-top-left-radius:    0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+.is-stick-on-bottom {
+	bottom: 0 !important;
+	border-top-left-radius:  0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+// SIDE POSITIONS
+
+.on-top    { bottom: auto !important; }
+.on-right  { left:   auto !important; }
+.on-bottom { top:    auto !important; }
+.on-left   { right:  auto !important; }
+
+// TOP POSITIONS
+
+.on-top-left {
+	right: auto !important;
+	bottom: auto !important;
+}
+
+.on-top-center {
+	right: initial !important;
+	bottom: auto !important;
+	left: 50% !important;
+	transform: translateX(-50%);
+}
+
+.on-top-right {
+	bottom: auto !important;
+	left: auto !important;
+}
+
+// MIDDLE POSITIONS
+
+.on-middle-left {
+	top: 50% !important;
+	transform: translateY(-50%);
+	right: auto !important;
+	bottom: auto !important;
+}
+
+.on-middle-center {
+	top: 50% !important;
+	bottom: initial !important;
+	left: 50% !important;
+	right: initial !important;
+	transform: translate(-50%,-50%);
+}
+
+.on-middle-right {
+	top: 50% !important;
+	transform: translateY(-50%);
+	bottom: auto !important;
+	left: auto !important;
+}
+
+// BOTTOM POSITIONS
+
+.on-bottom-left {
+	top: auto !important;
+	right: auto !important;
+}
+
+.on-bottom-center {
+	right: initial !important;
+	top: auto !important;
+	left: 50% !important;
+	transform: translateX(-50%);
+}
+
+.on-bottom-right {
+	top: auto !important;
+	left: auto !important;
+}
+
+// CUSTOM POSITION
+
+.on-custom-position {
+	top: initial !important;
+	right: initial !important;
+	bottom: initial !important;
+	left: initial !important;
+}
+
+// BASE SIZES
+
+.selk-stripe {
+	padding: $unit-x3 $unit-x4;
+}
+
+.selk-bubble {
+	width: $selk-bubble-small-size;
+}
+
+.selk-panel {
+	width: $selk-bubble-medium-size;
+}
+
+.selk-modal {
+	width: $selk-bubble-medium-size;
+}
+
+.selk-drawer {
+	width: $selk-bubble-medium-size;
+}
+
+// PREDEFINED SIZES
+
+.is-small {
+	width: $selk-bubble-small-size;
+}
+.is-medium {
+	width: $selk-bubble-medium-size;
+}
+.is-large {
+	width: $selk-bubble-large-size;
+}
+
+.selk-stripe {
+	&.is-small {
+		height: $selk-bubble-small-size;
+	}
+	&.is-medium {
+		height: $selk-bubble-medium-size;
+	}
+	&.is-large {
+		height: $selk-bubble-large-size;
+	}
+}

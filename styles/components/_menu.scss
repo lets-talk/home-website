@@ -1,3 +1,7 @@
+@include export-once("components/menu") {
+	@if $include-menu-classes {
+
+
 /* MENU */
 /* ========================================================================== */
 
@@ -38,3 +42,6 @@
 .menu-blocks {
 
 }
+
+
+}} // End export

@@ -1,20 +1,28 @@
 /* LINKS */
 /* ========================================================================== */
 
-a {
-	& {
-		color: $color-accent;
-	}
-	&:hover {
-		color: darken($color-accent,8%);
-	}
-}
+@include export-once("components/links") {
 
-.link-dark {
-	& {
-		color: $color-dark-secondary;
+	@if $include-links-styles {
+		a {
+			& {
+				color: $color-accent;
+			}
+			&:hover {
+				color: darken($color-accent,8%);
+			}
+		}
 	}
-	&:hover {
-		color: $color-dark-primary;
+
+	@if $include-links-classes {
+		.link-dark {
+			& {
+				color: $color-dark-secondary;
+			}
+			&:hover {
+				color: $color-dark-primary;
+			}
+		}
 	}
+
 }

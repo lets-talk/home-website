@@ -3,41 +3,41 @@
 $unit:                8px !default;
 $half:                $unit / 2 !default;
 
-$space-x0_5:          $unit * 0.5;   //   4px
-$space-x1:            $unit * 1;     //   8px
-$space-x1_5:          $unit * 1.5;   //  12px
-$space-x2:            $unit * 2;     //  16px
-$space-x3:            $unit * 3;     //  24px
-$space-x4:            $unit * 4;     //  32px
-$space-x5:            $unit * 5;     //  40px
+$unit-x0_5:          $unit * 0.5;   //   4px
+$unit-x1:            $unit * 1;     //   8px
+$unit-x1_5:          $unit * 1.5;   //  12px
+$unit-x2:            $unit * 2;     //  16px
+$unit-x3:            $unit * 3;     //  24px
+$unit-x4:            $unit * 4;     //  32px
+$unit-x5:            $unit * 5;     //  40px
 
-$space-x10:           $unit * 10;    //  80px
-$space-x15:           $unit * 15;    // 120px
-$space-x20:           $unit * 20;    // 160px
-$space-x30:           $unit * 30;    // 240px
+$unit-x10:           $unit * 10;    //  80px
+$unit-x15:           $unit * 15;    // 120px
+$unit-x20:           $unit * 20;    // 160px
+$unit-x30:           $unit * 30;    // 240px
 
 $spacers: (
 	0:      0,
-	x0_5:   $space-x0_5,
-	x1:     $space-x1,
-	x1_5:   $space-x1_5,
-	x2:     $space-x2,
-	x3:     $space-x3,
-	x4:     $space-x4,
-	x5:     $space-x5,
+	x0_5:   $unit-x0_5,
+	x1:     $unit-x1,
+	x1_5:   $unit-x1_5,
+	x2:     $unit-x2,
+	x3:     $unit-x3,
+	x4:     $unit-x4,
+	x5:     $unit-x5,
 
-	x10:    $space-x10,
-	x15:    $space-x15,
-	x20:    $space-x20,
-	x30:    $space-x30
+	x10:    $unit-x10,
+	x15:    $unit-x15,
+	x20:    $unit-x20,
+	x30:    $unit-x30
 );
 
 
 // Container
 
-$container-margin:     $space-x2;
-$container-md-margin:  $space-x3;
-$container-lg-margin:  $space-x4;
+$container-margin:     $unit-x2;
+$container-md-margin:  $unit-x3;
+$container-lg-margin:  $unit-x4;
 
 $container-xs:         320px;  //   40x
 $container-sm:         480px;  //   60x
@@ -52,5 +52,20 @@ $container-fixed:      960px;  //  120x
 // Columns
 
 $column-count:  12;
-$column-gutter: $space-x4;
+$column-gutter: $unit-x4;
 $column-size:   100%/$column-count;
+
+
+$space-x0_5:          $unit * 0.5;   //   4px
+$space-x1:            $unit * 1;     //   8px
+$space-x1_5:          $unit * 1.5;   //  12px
+$space-x2:            $unit * 2;     //  16px
+$space-x3:            $unit * 3;     //  24px
+$space-x4:            $unit * 4;     //  32px
+$space-x5:            $unit * 5;     //  40px
+
+$space-x10:           $unit * 10;    //  80px
+$space-x15:           $unit * 15;    // 120px
+$space-x20:           $unit * 20;    // 160px
+$space-x30:           $unit * 30;    // 240px
+

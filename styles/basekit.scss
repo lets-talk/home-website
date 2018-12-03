@@ -27,6 +27,7 @@ TABLE OF CONTENTS
 - Mennu
 
 # Utilities
+- Layout
 - Misc
 - Color
 - Spacing
@@ -34,7 +35,9 @@ TABLE OF CONTENTS
 
 */
 
+@import "tools/all";
 
+@import "settings/config";
 @import "settings/breakpoints";
 @import "settings/grid";
 @import "settings/colors";
@@ -60,7 +63,6 @@ TABLE OF CONTENTS
 @import "components/navbar";
 @import "components/menu";
 
-@import "utilities/tools";
 @import "utilities/layout";
 @import "utilities/misc";
 @import "utilities/colors";

@@ -1,78 +1,78 @@
-/* BUTTONS */
-/* ========================================================================== */
+@include export-once("components/buttons") {
+  @if $include-buttons-classes {
 
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+    /* BUTTONS */
+    /* ========================================================================== */
 
-  & {
-    display: inline-block;
-    height: 32px;
-    padding: 0 $space-x2;
-    color: #555;
-    text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border-radius: $button-base-radius;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    box-sizing: border-box;
-    vertical-align: middle;
-  }
+    .button {
 
-  &:hover, &:focus {
-    color: #333;
-    border-color: #888;
-    outline: 0;
-  }
+      & {
+        display: inline-block;
+        height: 32px;
+        padding: 0 $space-x2;
+        color: #555;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border-radius: $button-base-radius;
+        border: 1px solid #bbb;
+        cursor: pointer;
+        box-sizing: border-box;
+        vertical-align: middle;
+      }
 
-  &.button-primary {
-    & {
-      color: #FFF;
-      background-color: $color-accent;
-      border-color: $color-accent;
+      &:hover, &:focus {
+        color: #333;
+        border-color: #888;
+        outline: 0;
+      }
+
+      &.button-primary {
+        & {
+          color: #FFF;
+          background-color: $color-accent;
+          border-color: $color-accent;
+        }
+        &:hover, &:focus {
+          color: #FFF;
+          background-color: darken($color-accent,8%);
+          border-color: darken($color-accent,8%);
+        }
+      }
+
+      &.button-secondary {
+        & {
+          color: #FFF;
+          background-color: $color-altern;
+          border-color: $color-altern;
+        }
+        &:hover, &:focus {
+          color: #FFF;
+          background-color: darken($color-altern,8%);
+          border-color: darken($color-altern,8%);
+        }
+      }
+
     }
-    &:hover, &:focus {
-      color: #FFF;
-      background-color: darken($color-accent,8%);
-      border-color: darken($color-accent,8%);
+
+    .button-rounded {
+      border-radius: 100px;
     }
-  }
 
-  &.button-secondary {
-    & {
-      color: #FFF;
-      background-color: $color-altern;
-      border-color: $color-altern;
+    .button-rect {
+      border-radius: 0px;
     }
-    &:hover, &:focus {
-      color: #FFF;
-      background-color: darken($color-altern,8%);
-      border-color: darken($color-altern,8%);
+
+    .button-large {
+      height: 48px;
+      line-height: 48px;
+      padding: 0 $space-x3; // The 6px vertically centers text on FF, ignored by Webkit
     }
-  }
 
-
-}
-
-.button-rounded {
-  border-radius: 100px;
-}
-.button-rect {
-  border-radius: 0px;
-}
-
-
-.button-large {
-  height: 48px;
-  line-height: 48px;
-  padding: 0 $space-x3; // The 6px vertically centers text on FF, ignored by Webkit
-}
+}} // End export
