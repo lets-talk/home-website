@@ -26,7 +26,8 @@
       line-height: 1.5;
       font-weight: 400;
       font-family: $font-family-base;
-      color: #222;
+      background-color: $body-background;
+      color: $body-color;
     }
 
     // Spacing
@@ -59,22 +60,20 @@
       margin-top: 0;
     }
 
-
     // Misc
-
     hr {
-      margin-top: 3rem;
-      margin-bottom: 3.5rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
       border-width: 0;
-      border-top: 1px solid #E1E1E1;
+      border-top: 1px solid;
     }
 
     h1, h2, h3, h4, h5, h6 {
       font-size: 1rem;
-      margin-bottom: 1rem;
       font-weight: 300;
+      margin-top: 0;
+      margin-bottom: 1rem;
     }
-
 
   }
 }

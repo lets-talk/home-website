@@ -35,18 +35,11 @@ $include-html-classes:             false;
 	margin-right: $unit_x0_5;
 }
 
-.selk-stripe {
-	min-height: 88px;
+.selk-message-container {
+	.selk-stripe & { min-height: 88px; }
+	.selk-bubble & { height: 190px; }
+	.selk-modal & { height: 480px; }
+	.selk-panel & { height: 600px; }
 }
 
-.selk-bubble {
-	height: 190px;
-}
 
-.selk-modal {
-	height: 480px;
-}
-
-.selk-panel {
-	height: 600px;
-}

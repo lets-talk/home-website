@@ -1,0 +1,57 @@
+@include export-once("components/lists") {
+@if $include-lists-styles {
+
+$list-style-position: outside !default;
+
+/* LISTS */
+/* ========================================================================== */
+
+ul {
+  list-style: circle $list-style-position;
+}
+
+ol {
+  list-style: decimal $list-style-position;
+}
+
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1rem 0 1rem 2rem;
+  font-size: 90%;
+}
+
+li {
+  margin-bottom: 0rem;
+}
+
+}
+@if $include-lists-classes {
+
+.list-inline-item {
+  list-style: none;
+  display: inline-block;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.list-bullet-inside {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.list-bullet-outside {
+  list-style-position: outside;
+  padding-left: $unit_x4;
+}
+
+
+}} // End export

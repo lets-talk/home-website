@@ -46,6 +46,8 @@ end
 
 # 3. LAYOUTS
 
+set :markdown, parse_block_html: true, auto_ids: false
+
 activate :directory_indexes
 
 set :index_file, "index.html"

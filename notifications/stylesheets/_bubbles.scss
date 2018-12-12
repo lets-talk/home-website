@@ -16,23 +16,30 @@
 
 //	VARIABLES
 
-$selk-bubble-background:      $color-surface;
-$selk-bubble-shadow:          0 2px 8px 0 rgba(29,40,56,0.15);
-$selk-bubble-small-size:      340px;
-$selk-bubble-medium-size:     460px;
-$selk-bubble-large-size:      640px;
-$selk-bubble-radius:          6px;
-$selk-bubble-padding:         $unit-x1_5 $unit-x2;
-$selk-bubble-margin:          $unit-x4;
+$selk-bubble-background:        $color-surface;
+$selk-bubble-shadow:            0 2px 8px 0 rgba(29,40,56,0.15);
+$selk-bubble-small-size:        340px;
+$selk-bubble-medium-size:       460px;
+$selk-bubble-large-size:        640px;
+$selk-bubble-radius:            6px;
+$selk-bubble-margin:            $unit-x4;
+
+$selk-bubble-paddingl-small:    $unit-x2;
+$selk-bubble-paddingl-medium:   $unit-x3;
+$selk-bubble-paddingl-large:    $unit-x4;
 
 //	MESSAGE BOX
 
 .selk-message {
 	position: absolute;
-	padding: $selk-bubble-padding;
 	border-radius: $selk-bubble-radius;
 	background-color: $selk-bubble-background;
 	box-shadow: $selk-bubble-shadow;
+}
+
+.selk-message-scroll {
+	@include scrollable;
+	height: 100%;
 }
 
 // SPACED FROM EDGES
@@ -154,28 +161,6 @@ $selk-bubble-margin:          $unit-x4;
 	left: initial !important;
 }
 
-// BASE SIZES
-
-.selk-stripe {
-	padding: $unit-x3 $unit-x4;
-}
-
-.selk-bubble {
-	width: $selk-bubble-small-size;
-}
-
-.selk-panel {
-	width: $selk-bubble-medium-size;
-}
-
-.selk-modal {
-	width: $selk-bubble-medium-size;
-}
-
-.selk-drawer {
-	width: $selk-bubble-medium-size;
-}
-
 // PREDEFINED SIZES
 
 .is-small {
@@ -199,3 +184,47 @@ $selk-bubble-margin:          $unit-x4;
 		height: $selk-bubble-large-size;
 	}
 }
+
+
+// NAME DEFAULT
+
+.selk-stripe {
+	width: auto;
+}
+
+.selk-bubble {
+	width: $selk-bubble-small-size;
+}
+
+.selk-panel {
+	width: $selk-bubble-medium-size;
+}
+
+.selk-modal {
+	width: $selk-bubble-medium-size;
+}
+
+.selk-drawer {
+	width: $selk-bubble-medium-size;
+}
+
+
+.selk-message-content {
+	.is-small &,
+	.selk-bubble & {
+		padding: $selk-bubble-paddingl-small;
+	}
+	.is-medium &,
+	.selk-panel & {
+		padding: $selk-bubble-paddingl-medium;
+	}
+	.is-large &,
+	.selk-stripe &,
+	.selk-modal &,
+	.selk-drawer & {
+		padding: $selk-bubble-paddingl-large;
+	}
+}
+
+
+

@@ -1,10 +1,44 @@
 @charset "utf-8";
 
-$include-html-styles:              false;
-$include-html-classes:             false;
+$include-html-styles:              true;
+$include-html-classes:             true;
 
-$include-normalize-styles:         true;
-$include-scaffolding-styles:       true;
+// BASE
+$include-normalize-styles:         $include-html-styles;
+$include-scaffolding-styles:       $include-html-styles;
+
+// LAYOUT
+$include-container-classes:        $include-html-classes;
+$include-grid-classes:             $include-html-classes;
+
+// CONTENT
+$include-typography-styles:        $include-html-styles;
+$include-links-styles:             $include-html-styles;
+$include-buttons-styles:           $include-html-styles;
+$include-forms-styles:             $include-html-styles;
+$include-lists-styles:             $include-html-styles;
+$include-code-styles:              $include-html-styles;
+$include-tables-styles:            $include-html-styles;
+
+$include-typography-classes:       false;
+$include-links-classes:            false;
+$include-buttons-classes:          false;
+$include-forms-classes:            false;
+$include-lists-classes:            false;
+$include-code-classes:             false;
+$include-tables-classes:           false;
+
+// COMPONENTS
+$include-navbar-classes:           false;
+$include-menu-classes:             false;
+
+// UTILITIES
+$include-layout-classes:           false;
+$include-misc-classes:             false;
+$include-colors-classes:           false;
+$include-spacing-classes:          false;
+$include-shadows-classes:          false;
+$include-radius-classes:           false;
 
 @import "basekit";
 

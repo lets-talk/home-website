@@ -1,26 +1,37 @@
-@include export-once("components/tables") {
-	@if $include-tables-styles {
+@include export-once("components/typography") {
 
+@if $include-typography-styles {
 
 /* TYPOGRAPHY */
 /* ========================================================================== */
 
+	hr {
+		color: $color-dark-divider;
+	}
+
+	blockquote {
+
+	}
+
+}
+
+@if $include-typography-classes {
 
 // Display
 
-h1, .type-mega {
+.type-mega {
 	font-size:   $font-size-mega;
 	line-height: $line-height-mega;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
-h2, .type-jumbo {
+.type-jumbo {
 	font-size:   $font-size-jumbo;
 	line-height: $line-height-jumbo;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
-h3, .type-display {
+.type-display {
 	font-size:   $font-size-display;
 	line-height: $line-height-display;
 }
@@ -28,27 +39,27 @@ h3, .type-display {
 
 // Heading
 
-h4, .type-headline {
+.type-headline {
 	font-size:   $font-size-headline;
 	line-height: $line-height-headline;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
 }
 
-h5, .type-title {
+.type-title {
 	font-size:   $font-size-title;
 	line-height: $line-height-title;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
-	margin-bottom: $space-x2;
+	//margin-bottom: $space-x2;
 }
 
-h6, .type-subhead {
+.type-subhead {
 	font-size:   $font-size-subhead;
 	line-height: $line-height-subhead;
 	font-family: $font-family-title;
 	font-weight: $font-weight-bold;
-	margin-bottom: $space-x2;
+	//margin-bottom: $space-x2;
 }
 
 

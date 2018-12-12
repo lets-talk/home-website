@@ -40,11 +40,6 @@ $color-inverse:              $white !default;
 
 
 
-
-
-
-
-
 // Color themes
 $color-dark:                 $color-text !default;
 $color-light:                $color-inverse !default;
@@ -53,8 +48,8 @@ $theme-light:                $color-dark !default;
 $theme-dark:                 $color-light !default;
 
 
-$body-bg:                     $color-background !default;
-$body-color:                  rgba($theme-light,.9) !default;
+$body-background:            $color-background !default;
+$body-color:                 rgba($theme-light,.9) !default;
 
 
 

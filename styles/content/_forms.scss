@@ -63,9 +63,9 @@
     }
 
     .form-textarea {
-      min-height: 65px;
-      padding-top: 6px;
-      padding-bottom: 6px;
+      min-height: $unit_x8;
+      padding-top: $unit;
+      padding-bottom: $unit;
     }
 
     .form-input:focus,
