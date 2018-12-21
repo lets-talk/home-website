@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+$include-html-styles:              false;
+$include-html-classes:             false;
+
+@import "basekit";
+
+.demo-wrapper {
+	background: #F5F7F8;
+}
+
+.demo-section {
+	height: calc(100vh - 32px);
+	position: relative;
+}
+
+.demo-navigation {
+	background: white;
+	padding: $unit $unit_x4;
+	font-size: $font-size-footnote;
+	line-height: $line-height-footnote;
+}
+
+.demo-link {
+	color: $color-dark-secondary;
+	text-decoration: none;
+}
+
+.demo-label {
+	color: $color-dark-hint;
+}
+
+.demo-link,
+.demo-label {
+	margin-right: $unit_x0_5;
+}
+
+.selk-message-container {
+	.selk-stripe & { min-height: 88px; }
+	.selk-bubble & { height: 190px; }
+	.selk-modal & { height: 480px; }
+	.selk-panel & { height: 600px; }
+}
+
+

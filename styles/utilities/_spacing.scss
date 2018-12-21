@@ -1,6 +1,3 @@
-/* SPACERS */
-/* ========================================================================== */
-
 @mixin margin-classes($infix,$size) {
   .m-#{$infix},  .m-#{$infix}  { margin:        $size !important; }
   .my-#{$infix}, .mt-#{$infix} { margin-top:    $size !important; }
@@ -16,6 +13,12 @@
   .px-#{$infix}, .pl-#{$infix} { padding-left:   $size !important; }
 }
 
+@include export-once("utilities/spacing") {
+  @if $include-spacing-classes {
+
+
+/* SPACERS */
+/* ========================================================================== */
 
 @each $infix, $size in $spacers {
   @include margin-classes($infix,$size);
@@ -31,3 +34,5 @@
     }
   }
 }
+
+}} // End Export

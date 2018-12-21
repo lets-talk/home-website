@@ -1,3 +1,6 @@
+@include export-once("utilities/layout") {
+  @if $include-layout-classes {
+
 .fixed-top,
 .fixed-right,
 .fixed-bottom,
@@ -29,3 +32,5 @@
     bottom: 0;
     left: 0;
 }
+
+}} // End Export

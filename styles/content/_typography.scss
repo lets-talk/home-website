@@ -1,6 +1,21 @@
+@include export-once("components/typography") {
+
+@if $include-typography-styles {
+
 /* TYPOGRAPHY */
 /* ========================================================================== */
 
+	hr {
+		color: $color-dark-divider;
+	}
+
+	blockquote {
+
+	}
+
+}
+
+@if $include-typography-classes {
 
 // Display
 
@@ -31,19 +46,21 @@
 	font-weight: $font-weight-bold;
 }
 
-// .type-title {
-//   font-size:   24px;
-//   font-family: $font-family-title;
-//   font-weight: $font-weight-bold;
-//   margin-bottom: $space-x2;
-// }
-//
-// .type-subhead {
-//   font-size:   24px;
-//   font-family: $font-family-title;
-//   font-weight: $font-weight-bold;
-//   margin-bottom: $space-x2;
-// }
+.type-title {
+	font-size:   $font-size-title;
+	line-height: $line-height-title;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+	//margin-bottom: $space-x2;
+}
+
+.type-subhead {
+	font-size:   $font-size-subhead;
+	line-height: $line-height-subhead;
+	font-family: $font-family-title;
+	font-weight: $font-weight-bold;
+	//margin-bottom: $space-x2;
+}
 
 
 // Content
@@ -57,3 +74,6 @@
 	font-size:   $font-size-footnote;
 	line-height: $line-height-footnote;
 }
+
+
+}} // End export

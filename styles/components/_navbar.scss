@@ -1,3 +1,7 @@
+@include export-once("components/navbar") {
+	@if $include-navbar-classes {
+
+
 /* NAVBAR */
 /* ========================================================================== */
 
@@ -30,3 +34,6 @@
 	            0 3px 20px 0 rgba($color-dark,0.05),
 	            0 1px  2px 0 rgba($color-dark,0.10);
 }
+
+
+}} // End export

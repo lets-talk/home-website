@@ -1,3 +1,6 @@
+@include export-once("utilities/colors") {
+  @if $include-colors-classes {
+
 /* COLORS */
 /* ========================================================================== */
 
@@ -55,3 +58,6 @@
 .text-light-disabled      { color: $color-light-disabled; }
 .text-light-hint          { color: $color-light-hint; }
 .text-light-divider       { color: $color-light-divider; }
+
+
+}} // End Export

@@ -1,0 +1,39 @@
+$include-html-styles:              true !default;
+$include-html-classes:             true !default;
+
+// BASE
+$include-normalize-styles:         $include-html-styles !default;
+$include-scaffolding-styles:       $include-html-styles !default;
+
+// LAYOUT
+$include-container-classes:        $include-html-classes !default;
+$include-grid-classes:             $include-html-classes !default;
+
+// CONTENT
+$include-typography-styles:        $include-html-styles !default;
+$include-links-styles:             $include-html-styles !default;
+$include-buttons-styles:           $include-html-styles !default;
+$include-forms-styles:             $include-html-styles !default;
+$include-lists-styles:             $include-html-styles !default;
+$include-code-styles:              $include-html-styles !default;
+$include-tables-styles:            $include-html-styles !default;
+
+// COMPONENTS
+$include-typography-classes:       $include-html-classes !default;
+$include-links-classes:            $include-html-classes !default;
+$include-buttons-classes:          $include-html-classes !default;
+$include-forms-classes:            $include-html-classes !default;
+$include-lists-classes:            $include-html-classes !default;
+$include-code-classes:             $include-html-classes !default;
+$include-tables-classes:           $include-html-classes !default;
+
+$include-navbar-classes:           $include-html-classes !default;
+$include-menu-classes:             $include-html-classes !default;
+
+// UTILITIES
+$include-layout-classes:           $include-html-classes !default;
+$include-misc-classes:             $include-html-classes !default;
+$include-colors-classes:           $include-html-classes !default;
+$include-spacing-classes:          $include-html-classes !default;
+$include-shadows-classes:          $include-html-classes !default;
+$include-radius-classes:           $include-html-classes !default;

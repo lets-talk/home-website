@@ -1,0 +1,36 @@
+$markdown: true !default;
+
+h1 {
+	font-size: 2.25rem; // 36px
+	line-height: 3rem;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.25rem; // 20px
+	line-height: 1.75rem;
+	font-weight: normal;
+	color: rgba($color-text,.5);
+}
+h3 {
+	font-size: 1rem; // 16px
+	line-height: 1.5rem;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1rem; // 16px
+	font-weight: normal;
+}
+p {
+	font-size: .875rem; // 14px
+}
+
+ol, ul {
+	padding-left: $unit_x4;
+}
+
+blockquote {
+	margin-left: $unit_x2;
+	margin-right: $unit_x4;
+	padding-left: $unit_x1_5;
+	border-left: $unit-x0_5 solid $color-dark-divider;
+}
