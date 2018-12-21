@@ -4,10 +4,10 @@ header:
     url: "/#"
   -
     label: Producto
-    url: "/#"
+    url: "/products.html"
   -
     label: Preguntas Frecuentes
-    url: "/#"
+    url: "/faqs.html"
   -
     label: Contacto
     url: "/#"

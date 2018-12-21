@@ -114,7 +114,7 @@ end
 # activate :syntax, line_numbers: true, css_class: "code-highlight"
 
 # activate :i18n, :data => "locales"
-# activate :directory_indexes
+activate :directory_indexes
 
 
 

@@ -1,0 +1,80 @@
+title: Comunicación centralizada y efectiva con el Chat Center
+
+benefits:
+  - Recibe conversaciones desde Facebook Messenger, Whatsapp, Móvil y Chat Web a una sola bandeja de entrada. 
+  - Gestiona conversaciones en equipo desde una plataforma pensada para el trabajo colaborativo.
+  - Instaura reglas de asignación que llevarán a tus clientes directo al equipo correcto.
+  - Dirige la experiencia de tus usuarios con opciones de navegación y dales acceso a contenido útil, como manuales para resolver dudas o documentos importantes.
+
+cta:
+  title: ¿Te interesa? Hablemos.
+  placeholder: Correo electrónico o teléfono
+  action: Agenda una demo
+
+
+headline: Maximiza la conversión de tu negocio con el Chat Center, acompañando a tus usuarios en cada paso.
+
+overview:
+  -
+    title: Multicanalidad a toda prueba
+    description: Expande los canales de tu negocio sin perder la organización. Recibe mensajes desde Facebook Messenger, Whatsapp, Móvil y Chat Web en una bandeja de entrada colaborativa que deja todo registrado.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+  -
+    title: Lleva un registro de tus clientes
+    description: Guarda información significativa sobre tus usuarios y mantenla actualizada automáticamente, para que siempre sepas con quién estás hablando. 
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+  -
+    title: Plataforma pensada para equipos
+    description: Gestiona comunidades de grandes volúmenes y complejidad con una bandeja de entrada colaborativa, donde las conversaciones se mantienen ordenadas por estado, orden de llegada y asignación.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+  -
+    title: Flujos automatizados
+    description: Forma equipos y crea reglas de derivación automáticas para que las conversaciones lleguen directo a la persona correcta. Establece horarios de atención y mensajes automatizados.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+
+  -
+    title: Modela la experiencia de tus clientes
+    description: Establece opciones de navegación para dirigir la experiencia de tus usuarios. Muéstrales contenido relevante, resuelve dudas con links y documentos, y ayuda a su autoatención.
+    # action: Conoce mas sobre Automatización
+    # url: "#"
+
+  -
+    title: Alimento para tu inteligencia de negocios
+    description: Accede a datos avanzados mediante un panel con estadísticas en tiempo real y reportes descargables. Controla el desempeño de tu negocio y de tu equipo con evidencia medible.
+    # action: Conoce mas sobre Business Inteligence
+    # url: "#"
+
+  -
+    title: Trabajo ágil con atajos y tags
+    description: Atiende más y mejor con menos trabajo. Usa atajos para establecer respuestas predeterminadas, y agrega etiquetas a tus conversaciones para mantener todo en orden.
+    # action: Conoce mas sobre Operador
+    # url: "#"
+
+
+contact:
+    title: Hablemos sobre lo que necesitas
+    description: Contactanos llenando el formulario o escribiendonos a
+    action: ventas@letstalk.com
+    url: mailto:ventas@letstalk.com
+
+    form:
+      name: Nombre
+      email: Correo electrónico o teléfono
+      company: Empresa
+      message: Tu mensaje
+      submit: ENVIAR MENSAJE
+
+    sales:
+      label: ventas@letstalk.com
+      url: mailto:ventas@letstalk.com
+
+    facebook:
+      label: facebook.com/letstalk
+      url: http:www.facebook.com/letstalk
+
+
+footnote: Copyright © 2018 Let's Talk. Todos los derechos reservados.

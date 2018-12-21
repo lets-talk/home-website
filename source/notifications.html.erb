@@ -1,0 +1,100 @@
+---
+title: Let´s Talk - Mensajería instantánea para grandes empresas
+---
+
+
+
+<section class="section p-relative" id="featured">
+  <div class="container container-lg">
+
+    <div class="row">
+      <div class="col col-sm-7">
+        <h1 class="type-jumbo"><%= data.notifications.title %></h1>
+
+        <ol class="my-x4 text-secondary">
+          <% data.notifications.benefits.each do |b| %>
+          <li class="mb-x2"><%= b %></li>
+          <% end %>
+        </ol>
+
+        <form>
+          <label></label>
+          <div class="form-group">
+            <input class="form-input input-large radius-left col col-6" type="text" name="contact" placeholder="<%= data.notifications.cta.placeholder %>"><button class="button-secondary button-large radius-right"><%= data.notifications.cta.action %></button>
+          </div>
+        </form>
+
+        <%= link_to(
+          "¿Quieres conocer mas sobre Let´s Talk?",
+          "#about"
+        ) %>
+      </div>
+      <div class="col col-sm-5 p-relative">
+        <%= image_tag 'graphic-webchat.png', class: 'graphic-webchat image-2x' %>
+      </div>
+    </div>
+
+  </div>
+
+  <%= image_tag 'graphic-background-top.svg', class: 'graphic-background-top image-2x' %>
+
+</section>
+
+
+
+<section class="section" id="overview">
+  <div class="container container-lg">
+
+    <div class="row">
+      <div class="col col-sm-8 pr-0">
+        <h2 class="type-display mb-x15"><%= data.notifications.headline %></h2>
+      </div>
+      <div class="col col-sm-4 p-relative">
+        <%= image_tag 'graphic-overview.svg', class: 'graphic-overview image-2x' %>
+      </div>
+    </div>
+
+    <ul class="row">
+      <% data.notifications.overview.each do |item| %>
+      <li class="col col-sm-6 list-unstyled mb-x10">
+        <h3 class="type-headline"><%= item.title %></h3>
+        <p><%= item.description %></p>
+        <%= link_to( item.action, item.url ) %>
+      </li>
+      <% end %>
+    </ul>
+
+  </div>
+</section>
+
+
+
+<section class="section" id="contact">
+  <div class="container container-lg">
+
+    <div class="row">
+
+      <div class="col col-sm-6">
+        <h2 class="type-mega"><%= data.notifications.contact.title %></h2>
+        <p>
+          <%= data.notifications.contact.description %>
+          <%= link_to( data.notifications.contact.action, data.notifications.contact.url ) %>
+        </p>
+
+        <form>
+          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.notifications.contact.form.name %>">
+          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.notifications.contact.form.email %>">
+          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.notifications.contact.form.company %>">
+          <textarea class="form-textarea input-large u-full-width" placeholder="<%= data.notifications.contact.form.company %>"></textarea>
+          <button class="button-secondary button-large"><%= data.notifications.contact.form.submit %></button>
+        </form>
+      </div>
+
+      <div class="col col-sm-6 p-relative">
+        <%= image_tag 'graphic-contact.svg', class: 'graphic-contact image-2x' %>
+      </div>
+
+    </div>
+
+  </div>
+</section>

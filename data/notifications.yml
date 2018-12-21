@@ -1,0 +1,76 @@
+title: Muestra promociones + anuncios + chat en tu sitio y potencia tu negocio
+
+benefits:
+  - Empuja tus ventas con mensajes proactivos y dirigidos a quien más te interesa.
+  - Agiliza la comunicación con tus usuarios con una herramienta muy fácil de actualizar.
+  - Anuncia novedades, promociones o problemas sin tener que modificar tu web.
+  - Implementa encuestas en segundos y conoce a tus usuarios en serio.
+  - Conecta a tus clientes con el equipo correcto mediante el chat integrado.
+
+cta:
+  title: ¿Te interesa? Hablemos.
+  placeholder: Correo electrónico o teléfono
+  action: Agenda una demo
+
+
+headline: Conoce las notificaciones inteligentes, la nueva herramienta para tus campañas. 
+
+overview:
+  -
+    title: Central, mini, lateral, y con chat
+    description: Integra tu sitio web con tus campañas desplegando el contenido que quieras en el módulo central, el módulo lateral o el módulo con chat. Tu contenido tendrá un lugar privilegiado en tu web.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+  -
+    title: Mensajes que tus usuarios verán, garantizado.
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+  -
+    title: Anuncios inmediatos
+    description: Comunica fácilmente nuevas características y anuncios de tus servicios, sin necesidad de enviar mails. Puedes avisar de problemas en tu servicio, por ejemplo, sin tener que actualizar tu sitio.
+    # action: Conoce mas sobre Centralización
+    # url: "#"
+
+  -
+    title: Ventas segmentadas
+    description: Empuja ventas, actualizaciones y mejoras a través de mensajes automáticos segmentados para grupos de usuarios. Llega con precisión al grupo de personas que busca lo que ofreces.
+    # action: Conoce mas sobre Automatización
+    # url: "#"
+
+  -
+    title: Encuestas y NPS
+    description: Registra la lealtad de tus clientes con cuestionarios rápidos que tus usuarios podrán responder en segundos, o realiza estudios en profundidad con encuestas extensivas. 
+    # action: Conoce mas sobre Business Inteligence
+    # url: "#"
+
+  -
+    title: Condiciones personalizadas
+    description: Tú eliges cuándo aparecen las notificaciones. Pueden desplegarse al cerrar un chat o con cualquier acción que definas (tipo de cliente, perfil, número de visitas, y más.) 
+    # action: Conoce mas sobre Operador
+    # url: "#"
+
+
+contact:
+    title: Hablemos sobre lo que necesitas
+    description: Contactanos llenando el formulario o escribiendonos a
+    action: ventas@letstalk.com
+    url: mailto:ventas@letstalk.com
+
+    form:
+      name: Nombre
+      email: Correo electrónico o teléfono
+      company: Empresa
+      message: Tu mensaje
+      submit: ENVIAR MENSAJE
+
+    sales:
+      label: ventas@letstalk.com
+      url: mailto:ventas@letstalk.com
+
+    facebook:
+      label: facebook.com/letstalk
+      url: http:www.facebook.com/letstalk
+
+
+footnote: Copyright © 2018 Let's Talk. Todos los derechos reservados.

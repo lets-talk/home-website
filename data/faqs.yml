@@ -1,22 +1,11 @@
-title: Mensajería instantánea para grandes empresas
+title: Preguntas Frecuentes
 
-benefits:
-  - Todos tus canales de chat, centralizados
-  - Dirige, filtra y asigna conversaciones automáticamente.
-  - Bots de atención, inteligencia artificial y reglas de automatización.
+headline: ¿Tienes dudas? Normal. Es un gran paso, todos dudamos antes de avanzar hacia un nuevo estado. Esperamos que acá puedas aclarar algunas de tus dudas.
 
-cta:
-  title: ¿Quieres saber más? Hablemos.
-  placeholder: Correo electrónico o teléfono
-  action: Agenda una demo
-
-
-headline: Let’s Talk le dará fuerza a tu equipo de trabajo, modelará la experiencia de tus clientes y aumentará la eficiencia de tu organización con tus reglas de negocio.
-
-overview:
+questions:
   -
     title: Todo bajo control en una sola plataforma
-    description: Let’s Talk te ayuda a manejar grandes volúmenes de información compleja de forma simple y a sacarle el máximo provecho a los datos disponibles.
+    answer: Let’s Talk te ayuda a manejar grandes volúmenes de información compleja de forma simple y a sacarle el máximo provecho a los datos disponibles.
     # action: Conoce mas sobre Centralización
     # url: "#"
 

@@ -1,0 +1,102 @@
+title: Herramientas para que la comunicación fluya
+
+benefits:
+  - Empuja tus ventas con mensajes proactivos y dirigidos a quien más te interesa.
+  - Agiliza la comunicación con tus usuarios con una herramienta muy fácil de actualizar.
+  - Anuncia novedades, promociones o problemas sin tener que modificar tu web.
+  - Implementa encuestas en segundos y conoce a tus usuarios en serio.
+  - Conecta a tus clientes con el equipo correcto mediante el chat integrado.
+
+cta:
+  title: ¿Te interesa? Hablemos.
+  placeholder: Correo electrónico o teléfono
+  action: Agenda una demo
+
+
+headline: Let’s Talk hace felices a tus clientes y le facilita el trabajo a todo tu equipo.
+
+overview:
+  -
+    title: Centralización de todos tus canales de atención
+    description: Integra tu sitio web con tus campañas desplegando el contenido que quieras en el módulo central, el módulo lateral o el módulo con chat. Tu contenido tendrá un lugar privilegiado en tu web.
+    benefits:
+      - Chat web
+      - Instalamos un chat en tu sitio web, personalizado con tus preferencias de branding.
+      - Facebook y móvil.
+      - También integramos Facebook Messenger y aplicaciones móviles.
+      - Bandeja centralizada.
+      - Los mensajes llegan a una bandeja de entrada particular para cada agente con información completa sobre el usuario que necesita ayuda.
+    action: Conoce más sobre Centralización
+    url: "../chat_center.html"
+  -
+    title: Bots de autoatención
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    benefits:
+      - Bots inteligentes
+      - Bots de autoatención con inteligencia artificial respaldados con tecnología IBM Watson.
+      - Reglas de atención
+      - Se pueden establecer reglas de atención para garantizar la calidad del servicio y parámetros de derivación.
+      - Derivaciones y horarios
+      - Es posible crear solicitudes que facilitan la derivación de las conversaciones y establecer horarios de atención.
+    action: Conoce mas sobre Bots
+    url: "../bots.html"
+  -
+    title: Evaluaciones de los usuarios a tu servicio
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    benefits:
+      - Evaluaciones a los ejecutivos
+      - Los usuarios pueden evaluar las interacciones con los ejecutivos y esos datos se convierten en información descargable.
+      - Monitoreo para administradores
+      - Los administradores pueden mantener el control de las conversaciones y cuentan con acceso para monitoreo constante.
+      - Registro de todo
+      - El registro de todas las conversaciones y sus estadísticas, contenido, tiempos de respuesta y evaluación estarán siempre en tus manos.
+    action: Conoce mas sobre evaluaciones
+    url: "../evaluaciones.html"
+  -
+    title: Comunicación enriquecida y fácil para todos
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    benefits:
+      - Documentos y fotos
+      - Es posible compartir imágenes y documentos en la misma conversación de forma fácil, mejorando la comunicación entre cliente y agente.
+      - Atención múltiple
+      - Un ejecutivo puede atender varias conversaciones al mismo tiempo, o bien, varios ejecutivos pueden atender a un mismo cliente simultáneamente.
+      - Trabajo equilibrado
+      - La asignación de conversaciones es ágil y rápida gracias al sistema que distribuye la carga de trabajo entre agentes y equipos con eficiencia y precisión, privilegiando siempre a los agentes sin conversaciones abiertas en su bandeja de entrada.
+    # action: Conoce mas sobre Bots
+    # url: "../bots.html"
+  -
+    title: Mensajes proactivos automatizados para tus usuarios
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    benefits:
+      - Mensajes en la interfaz
+      - Podrás desplegar mensajes en la interfaz que ven tus usuarios para agilizar la comunicación con ellos.
+      - Anuncios inmediatos
+      - Comunica fácilmente nuevas características y anuncios de tus servicios, sin necesidad de enviar mails. O bien, anuncia problemas o fallas en tus servicios sin necesidad de actualizar tu sitio.
+      - Ventas segmentadas
+      - Empuja ventas, actualizaciones y mejoras a través de mensajes automáticos segmentados para grupos de usuarios.
+    # action: Conoce mas sobre Bots
+    # url: "../bots.html"
+
+contact:
+    title: Hablemos sobre lo que necesitas
+    description: Contactanos llenando el formulario o escribiendonos a
+    action: ventas@letstalk.com
+    url: mailto:ventas@letstalk.com
+
+    form:
+      name: Nombre
+      email: Correo electrónico o teléfono
+      company: Empresa
+      message: Tu mensaje
+      submit: ENVIAR MENSAJE
+
+    sales:
+      label: ventas@letstalk.com
+      url: mailto:ventas@letstalk.com
+
+    facebook:
+      label: facebook.com/letstalk
+      url: http:www.facebook.com/letstalk
+
+
+footnote: Copyright © 2018 Let's Talk. Todos los derechos reservados.
