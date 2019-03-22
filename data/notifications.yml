@@ -57,9 +57,11 @@ contact:
     action: ventas@letstalk.com
     url: mailto:ventas@letstalk.com
 
+
     form:
       name: Nombre
-      email: Correo electrónico o teléfono
+      email: Correo electrónico
+      phone: Teléfono
       company: Empresa
       message: Tu mensaje
       submit: ENVIAR MENSAJE
@@ -74,7 +76,7 @@ contact:
 
 
 footnote: Copyright © 2018 Let's Talk. Todos los derechos reservados.
-=======
+notifications_types:
 -
   name: stripe
   blocker: false (*)

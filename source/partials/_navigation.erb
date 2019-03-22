@@ -2,8 +2,10 @@
   <div class="container">
 
     <h3 class="navbar-brand">
-      <%= image_tag 'brand-letstalk.svg', class: 'navbar-brand-image' %>
-      <span class="text-hide">Let´s Talk</span>
+      <% link_to config.base_url do %>
+        <span class="text-hide">Let's Talk</span>
+        <%= image_tag 'brand-letstalk.svg', class: 'navbar-brand-image' %>
+      <% end %>
     </h3>
 
     <ul class="navbar-menu menu menu-right">

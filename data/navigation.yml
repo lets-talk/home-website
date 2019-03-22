@@ -1,13 +1,13 @@
 header:
   -
     label: Inicio
-    url: "/#featured"
+    url: "/"
   -
-    label: Producto
-    url: "/products.html"
+    label: Funcionalidades
+    url: "/features"
   -
     label: Preguntas Frecuentes
-    url: "/faqs.html"
+    url: "/faqs"
   -
     label: Contacto
     url: "/#contact"

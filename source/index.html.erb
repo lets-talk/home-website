@@ -17,16 +17,20 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
           <% end %>
         </ol>
 
-        <form>
-          <label></label>
-          <div class="form-group">
-            <input class="form-input input-large radius-left col col-6" type="text" name="contact" placeholder="<%= data.home.cta.placeholder %>"><button class="button button-secondary button-large radius-right"><%= data.home.cta.action %></button>
-          </div>
-        </form>
+        
+        <form id="contact-form" action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
+          <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks.html' />
+          <input placeholder="<%= data.home.cta.placeholder %>" class="form-input input-large radius-left col col-6" type='text' name="contact" />
 
+          <button type='submit' class="button button-secondary button-large radius-right"><%= data.home.cta.action %>
+          </button>
+
+        </form>
+      
+  
         <%= link_to(
           "¿Quieres conocer mas sobre Let´s Talk?",
-          "#about"
+          "#overview"
         ) %>
       </div>
       <div class="col col-sm-5 p-relative">
@@ -81,12 +85,14 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
           <%= link_to( data.home.contact.action, data.home.contact.url ) %>
         </p>
 
-        <form>
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.name %>">
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.email %>">
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.company %>">
-          <textarea class="form-textarea input-large u-full-width" placeholder="<%= data.home.contact.form.company %>"></textarea>
-          <button class="button button-secondary button-large"><%= data.home.contact.form.submit %></button>
+        <form action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <input type='hidden' name='redirect_to' value='http://ltb.im/thank.html' />
+          <input class="form-input input-large u-full-width" name="name" type="text" placeholder="<%= data.home.contact.form.name %>">
+          <input class="form-input input-large u-half-width" name="email" type="email" placeholder="<%= data.home.contact.form.email %>"> o
+          <input class="form-input input-large u-half-width" name="telefono" type="tel" placeholder="<%= data.home.contact.form.phone %>">
+          <input class="form-textarea input-large u-full-width" name="mensaje" type="text" placeholder="<%= data.home.contact.form.message %>">
+          <button type='submit' class="button button-secondary button-large"><%= data.home.contact.form.submit %></button>
         </form>
       </div>
 

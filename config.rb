@@ -58,6 +58,12 @@ end
 
 
 # 6. OPTIONS
+set :relative_links, true
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-61272908-1' 
+end
+
 # 3. LAYOUTS
 
 set :markdown, parse_block_html: true, auto_ids: false
@@ -75,11 +81,13 @@ page '/*.txt', layout: false
 configure :development do
   activate :livereload
   set :debug_assets, true
+  set :base_url, 'http://localhost:4567/'
 end
 
 configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :cache_buster
+  set :base_url, 'https://ltb.im/'
 end
 
