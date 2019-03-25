@@ -7,8 +7,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Let´s Talk" %></title>
+    <title><%= current_page.data.title || "Let's Talk" %></title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
+    <%= favicon_tag 'images/favicon-32x32.png' %>
     <%= stylesheet_link_tag "site" %>
     <%= google_analytics_tag %>
   </head>

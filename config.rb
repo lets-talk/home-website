@@ -77,6 +77,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # 4. ENVIROMENTS
+set :facebook, "https://facebook.com/LetsTalkchat"
+set :mailto_sales, "mailto:ventas@ltmessenger.com"
 
 configure :development do
   activate :livereload

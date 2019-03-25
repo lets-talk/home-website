@@ -78,18 +78,20 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
     <div class="row">
 
       <div class="col col-sm-6">
-        <h2 class="type-mega"><%= data.home.contact.title %></h2>
+        <h2 class="type-mega"><%= data.faqs.contact.title %></h2>
         <p>
-          <%= data.home.contact.description %>
-          <%= link_to( data.home.contact.action, data.home.contact.url ) %>
+          <%= data.faqs.contact.description %>
+          <%= link_to( data.faqs.contact.action, data.faqs.contact.url ) %>
         </p>
 
-        <form>
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.name %>">
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.email %>">
-          <input class="form-input input-large u-full-width" type="text" placeholder="<%= data.home.contact.form.company %>">
-          <textarea class="form-textarea input-large u-full-width" placeholder="<%= data.home.contact.form.message %>"></textarea>
-          <button class="button-secondary button-large"><%= data.home.contact.form.submit %></button>
+        <form action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks' />
+          <input class="form-input input-large u-full-width" name="name" type="text" placeholder="<%= data.faqs.contact.form.name %>">
+          <input class="form-input input-large u-half-width" name="email" type="email" placeholder="<%= data.faqs.contact.form.email %>"> o
+          <input class="form-input input-large u-half-width" name="telefono" type="tel" placeholder="<%= data.faqs.contact.form.phone %>">
+          <input class="form-textarea input-large u-full-width" name="mensaje" type="text" placeholder="<%= data.faqs.contact.form.message %>">
+          <button type='submit' class="button button-secondary button-large"><%= data.faqs.contact.form.submit %></button>
         </form>
       </div>
 

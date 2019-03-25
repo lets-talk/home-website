@@ -87,7 +87,7 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
 
         <form action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <input type='hidden' name='redirect_to' value='http://ltb.im/thank.html' />
+          <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks' />
           <input class="form-input input-large u-full-width" name="name" type="text" placeholder="<%= data.home.contact.form.name %>">
           <input class="form-input input-large u-half-width" name="email" type="email" placeholder="<%= data.home.contact.form.email %>"> o
           <input class="form-input input-large u-half-width" name="telefono" type="tel" placeholder="<%= data.home.contact.form.phone %>">
