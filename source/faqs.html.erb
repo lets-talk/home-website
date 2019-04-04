@@ -58,11 +58,11 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
     </div>
 
     <ul class="row">
-      <% data.home.overview.each do |item| %>
+      <% data.faqs.questions.each do |faq| %>
       <li class="col col-sm-6 list-unstyled mb-x10">
-        <h3 class="type-headline"><%= item.title %></h3>
-        <p><%= item.description %></p>
-        <%= link_to( item.action, item.url ) %>
+        <h3 class="type-headline"><%= faq.title %></h3>
+        <p><%= faq.answer %></p>
+        <%= link_to( faq.action, faq.url ) %>
       </li>
       <% end %>
     </ul>

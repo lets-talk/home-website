@@ -5,9 +5,9 @@ header:
   -
     label: Productos
     url: "/features"
-  -
-    label: Preguntas Frecuentes
-    url: "/faqs"
+  # -
+  #   label: Preguntas Frecuentes
+  #   url: "/faqs"
   -
     label: Contacto
     url: "/#contact"
