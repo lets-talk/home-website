@@ -6,6 +6,7 @@ benefits:
   - Integra Facebook Messenger, Twitter, WhatsApp, Telegram a tu Chat Center
   - Videollamadas, encuestas, promociones, alertas, botón de pago, etc.
   - SDK para instalar chat en tus apps móviles 
+  - Inteligencia Artificial para Ejecutivos Aumentados 
 
 cta:
   title: ¿Te interesa? Hablemos.
@@ -13,7 +14,7 @@ cta:
   action: Agenda una demo
 
 
-headline: Let’s Talk hace felices a tus clientes y le facilita el trabajo a todo tu equipo.
+headline: Atención Digital 100%. Usa los canales de chat que tus clientes utilizan
 
 overview:
   -
@@ -26,8 +27,8 @@ overview:
       - Conversaciones encriptadas, privacidad y seguridad en las conversaciones 
       - IVR y árbol de decisión para tus clientes.
       - Formulario de entrada personalizable. Pide los datos que requieras de tu cliente
-    action: Conoce más sobre Chat Web
-    url: "../chat_center.html"
+    #action: Conoce más sobre Chat Web
+    #url: "../chat_center.html"
   -
     title: Click to chat
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
@@ -38,8 +39,8 @@ overview:
       - Reemplaza la llamada telefónica por un chat
       - Aumenta la conversión de tus campañas de venta o cobranza
       - Aumenta la contactabilidad y satisfacción de tus clientes
-    action: Conoce mas sobre el Click to Chat
-    url: "../bots.html"
+    #action: Conoce mas sobre el Click to Chat
+    #url: "../bots.html"
   -
     title: App Iphone/Android White Label de chat para equipos de ventas
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
@@ -50,8 +51,8 @@ overview:
       - Añade un chat en tu intranet para la atención de tus equipos internos
       - Alta productividad al añadir archivos, fotos e imágenes a las conversaciones 
       - Implementa bots y automatizaciones sobre esta plataforma
-    action: Conoce mas sobre evaluaciones
-    url: "../evaluaciones.html"
+    #action: Conoce mas sobre evaluaciones
+    #url: "../evaluaciones.html"
   -
     title: Integra Facebook Messenger, Twitter, WhatsApp, Telegram a tu Chat Center
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
@@ -75,7 +76,18 @@ overview:
       
     # action: Conoce mas sobre Bots
     # url: "../bots.html"
-
+-
+    title: Inteligencia Artificial para Ejecutivos Aumentados 
+    description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
+    benefits:
+      - Pronostica la satisfacción de tus clientes en tiempo real y gatilla acciones automáticas
+      - Detecta leads de venta y suma automáticamente a tu equipo de ventas a las conversaciones
+      - Envía alertas a tus Ejecutivos de atención cuando el sistema de IA detecta un deterioro en los KPI's
+      - Apoya a tus nuevos ejecutivos de atención con consejos e información automáticamente
+      - Tus conversaciones convertidas en datos estructurados para tu empresa
+      
+    # action: Conoce mas sobre Bots
+    # url: "../bots.html"
 contact:
     title: Hablemos sobre lo que necesitas
     description: Contactanos llenando el formulario o escribiendonos a
