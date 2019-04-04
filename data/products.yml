@@ -1,11 +1,11 @@
-title: Herramientas para que la comunicación fluya
-
+title: Herramientas para mensajería instantánea y chat
 benefits:
-  - Empuja tus ventas con mensajes proactivos y dirigidos a quien más te interesa.
-  - Agiliza la comunicación con tus usuarios con una herramienta muy fácil de actualizar.
-  - Anuncia novedades, promociones o problemas sin tener que modificar tu web.
-  - Implementa encuestas en segundos y conoce a tus usuarios en serio.
-  - Conecta a tus clientes con el equipo correcto mediante el chat integrado.
+  - Chat web para sitios públicos y privados
+  - Click to chat
+  - App Iphone/Android White Label de chat para equipos de ventas
+  - Integra Facebook Messenger, Twitter, WhatsApp, Telegram a tu Chat Center
+  - Videollamadas, encuestas, promociones, alertas, botón de pago, etc.
+  - SDK para instalar chat en tus apps móviles 
 
 cta:
   title: ¿Te interesa? Hablemos.
@@ -17,63 +17,62 @@ headline: Let’s Talk hace felices a tus clientes y le facilita el trabajo a to
 
 overview:
   -
-    title: Centralización de todos tus canales de atención
+    title: Chat web para sitios públicos y privados
     description: Integra tu sitio web con tus campañas desplegando el contenido que quieras en el módulo central, el módulo lateral o el módulo con chat. Tu contenido tendrá un lugar privilegiado en tu web.
     benefits:
-      - Chat web
-      - Instalamos un chat en tu sitio web, personalizado con tus preferencias de branding.
-      - Facebook y móvil.
-      - También integramos Facebook Messenger y aplicaciones móviles.
-      - Bandeja centralizada.
-      - Los mensajes llegan a una bandeja de entrada particular para cada agente con información completa sobre el usuario que necesita ayuda.
-    action: Conoce más sobre Centralización
+      - Full personalizables a los colores y branding de tu empresa
+      - Instalalo en tu sitio público o privado y segmenta por tipo de cliente tu atención
+      - Envía y recibe archivos, imágenes, videos y capturas de pantalla
+      - Conversaciones encriptadas, privacidad y seguridad en las conversaciones 
+      - IVR y árbol de decisión para tus clientes.
+      - Formulario de entrada personalizable. Pide los datos que requieras de tu cliente
+    action: Conoce más sobre Chat Web
     url: "../chat_center.html"
   -
-    title: Bots de autoatención
+    title: Click to chat
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
     benefits:
-      - Bots inteligentes
-      - Bots de autoatención con inteligencia artificial respaldados con tecnología IBM Watson.
-      - Reglas de atención
-      - Se pueden establecer reglas de atención para garantizar la calidad del servicio y parámetros de derivación.
-      - Derivaciones y horarios
-      - Es posible crear solicitudes que facilitan la derivación de las conversaciones y establecer horarios de atención.
-    action: Conoce mas sobre Bots
+      - Con un click en una URL única, tus clientes comienzan a chatear con tu empresa
+      - Atiende a tus clientes por SMS
+      - Envía promociones, cobranzas, ofertas, avisos y usa el click to chat como medio de contacto
+      - Reemplaza la llamada telefónica por un chat
+      - Aumenta la conversión de tus campañas de venta o cobranza
+      - Aumenta la contactabilidad y satisfacción de tus clientes
+    action: Conoce mas sobre el Click to Chat
     url: "../bots.html"
   -
-    title: Evaluaciones de los usuarios a tu servicio
+    title: App Iphone/Android White Label de chat para equipos de ventas
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
     benefits:
-      - Evaluaciones a los ejecutivos
-      - Los usuarios pueden evaluar las interacciones con los ejecutivos y esos datos se convierten en información descargable.
-      - Monitoreo para administradores
-      - Los administradores pueden mantener el control de las conversaciones y cuentan con acceso para monitoreo constante.
-      - Registro de todo
-      - El registro de todas las conversaciones y sus estadísticas, contenido, tiempos de respuesta y evaluación estarán siempre en tus manos.
+      - Instala en los celulares de tus equipos, una app de chat segura, privada y de alta productividad
+      - Reemplaza por completo las llamadas telefónicas y e-mail en el soporte de la mesa de ayuda a tu fuerza de ventas o funcionarios
+      - Aplicación móvil integrable a sistemas de login de tu empresa
+      - Añade un chat en tu intranet para la atención de tus equipos internos
+      - Alta productividad al añadir archivos, fotos e imágenes a las conversaciones 
+      - Implementa bots y automatizaciones sobre esta plataforma
     action: Conoce mas sobre evaluaciones
     url: "../evaluaciones.html"
   -
-    title: Comunicación enriquecida y fácil para todos
+    title: Integra Facebook Messenger, Twitter, WhatsApp, Telegram a tu Chat Center
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
     benefits:
-      - Documentos y fotos
-      - Es posible compartir imágenes y documentos en la misma conversación de forma fácil, mejorando la comunicación entre cliente y agente.
-      - Atención múltiple
-      - Un ejecutivo puede atender varias conversaciones al mismo tiempo, o bien, varios ejecutivos pueden atender a un mismo cliente simultáneamente.
-      - Trabajo equilibrado
-      - La asignación de conversaciones es ágil y rápida gracias al sistema que distribuye la carga de trabajo entre agentes y equipos con eficiencia y precisión, privilegiando siempre a los agentes sin conversaciones abiertas en su bandeja de entrada.
+      - Todos los canales de comunicación en un sólo lugar
+      - Puedes crear reglas de negocio para cada uno de los canales de mensajería instantánea
+      - Integra bots a estos canales y decide cuando atiende el bot y cuando tus equipos humanos
+      - Utiliza los canales de mensajería que mejor se acomodan a tu empresa
+      - Configura bots para Facebook Messenger en la misma plataforma de Let's Talk
     # action: Conoce mas sobre Bots
     # url: "../bots.html"
   -
-    title: Mensajes proactivos automatizados para tus usuarios
+    title: Videollamadas, encuestas, promociones, botón de pago, etc.
     description: Aprovecha las interfaces que tus usuarios ya están viendo y explora un mundo de posibilidades. Las notificaciones dinámicas se muestran en distintos lugares de tu web según la modalidad que escojas para adaptarse mejor a tu contenido.
     benefits:
-      - Mensajes en la interfaz
-      - Podrás desplegar mensajes en la interfaz que ven tus usuarios para agilizar la comunicación con ellos.
-      - Anuncios inmediatos
-      - Comunica fácilmente nuevas características y anuncios de tus servicios, sin necesidad de enviar mails. O bien, anuncia problemas o fallas en tus servicios sin necesidad de actualizar tu sitio.
-      - Ventas segmentadas
-      - Empuja ventas, actualizaciones y mejoras a través de mensajes automáticos segmentados para grupos de usuarios.
+      - Envía mensajes outbound en tu web, invita a tus clientes a conversar con tu empresa
+      - Inicia Videollamadas con tus clientes para una atención remota más personalizada
+      - Según segmento de cliente puedes gatillar promociones, encuestas, alertas
+      - Envía un botón de pago mientras conversas con tu cliente en el chat
+      - Atención digital integral, transforma tu chat en un canal operativo de ventas
+      
     # action: Conoce mas sobre Bots
     # url: "../bots.html"
 

@@ -3,7 +3,7 @@ header:
     label: Inicio
     url: "/"
   -
-    label: Funcionalidades
+    label: Productos
     url: "/features"
   -
     label: Preguntas Frecuentes
