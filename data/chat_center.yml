@@ -58,8 +58,8 @@ overview:
 contact:
     title: Hablemos sobre lo que necesitas
     description: Contactanos llenando el formulario o escribiendonos a
-    action: ventas@letstalk.com
-    url: mailto:ventas@letstalk.com
+    action: info@LTmessenger.com
+    url: mailto:info@LTmessenger.com
 
     form:
       name: Nombre
@@ -69,12 +69,12 @@ contact:
       submit: ENVIAR MENSAJE
 
     sales:
-      label: ventas@letstalk.com
-      url: mailto:ventas@letstalk.com
+      label: info@LTmessenger.com
+      url: mailto:info@LTmessenger.com
 
     facebook:
       label: facebook.com/letstalk
-      url: http:www.facebook.com/letstalk
+      url: https://business.facebook.com/LetsTalkchat/?business_id=2228876783811448
 
 
 footnote: Copyright © 2018 Let's Talk. Todos los derechos reservados.
