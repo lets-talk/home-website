@@ -90,6 +90,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :cache_buster
-  set :base_url, 'https://ltb.im/'
+  set :base_url, 'https://ltmessenger.com/'
 end
 

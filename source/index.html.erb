@@ -5,6 +5,14 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
 
 
 <section class="section p-relative" id="featured">
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+    function onSubmit2(token) {
+      document.getElementById("contact-form-2").submit();
+    }
+  </script>
   <div class="container container-lg">
 
     <div class="row">
@@ -22,16 +30,13 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
           <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks' />
           <input placeholder="<%= data.home.cta.placeholder %>" class="form-input input-large radius-left col col-6" type='text' name="contact" />
 
-          <button type='submit' class="button button-secondary button-large radius-right"><%= data.home.cta.action %>
+          <button class="button button-secondary button-large radius-right g-recaptcha" data-sitekey="6LeJ4Z4UAAAAAPZ-TBQtNEnyvKkLvG21WcYbFcwn" data-callback='onSubmit'><%= data.home.cta.action %>
           </button>
 
         </form>
       
   
-        <%= link_to(
-          "¿Quieres conocer mas sobre Let´s Talk?",
-          "#overview"
-        ) %>
+
       </div>
       <div class="col col-sm-5 p-relative">
         <%= image_tag 'graphic-webchat.png', class: 'graphic-webchat image-2x' %>
@@ -85,14 +90,14 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
           <%= link_to( data.home.contact.action, data.home.contact.url ) %>
         </p>
 
-        <form action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
+        <form id="contact-form-2" action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
           <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks' />
           <input class="form-input input-large u-full-width" name="name" type="text" placeholder="<%= data.home.contact.form.name %>">
           <input class="form-input input-large u-half-width" name="email" type="email" placeholder="<%= data.home.contact.form.email %>"> o
           <input class="form-input input-large u-half-width" name="telefono" type="tel" placeholder="<%= data.home.contact.form.phone %>">
           <input class="form-textarea input-large u-full-width" name="mensaje" type="text" placeholder="<%= data.home.contact.form.message %>">
-          <button type='submit' class="button button-secondary button-large"><%= data.home.contact.form.submit %></button>
+          <button type='submit' class="button button-secondary button-large g-recaptcha" data-sitekey="6LeJ4Z4UAAAAAPZ-TBQtNEnyvKkLvG21WcYbFcwn" data-callback='onSubmit2'><%= data.home.contact.form.submit %></button>
         </form>
       </div>
 
