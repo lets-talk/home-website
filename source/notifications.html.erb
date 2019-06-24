@@ -27,6 +27,7 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
         <form id="contact-form" action="https://getsimpleform.com/messages?form_api_token=cb90dccbbb9b5131b218888d68e086f6" method="post">
           <input type='hidden' name='redirect_to' value='<%= config.base_url %>thanks' />
           <input placeholder="<%= data.home.cta.placeholder %>" class="form-input input-large radius-left col col-6" type='email' name="contact" />
+          <input type='hidden' name='form-id' value="contact-form-notifications" />
 
           <button type='submit' class="button button-secondary button-large radius-right g-recaptcha" data-sitekey="6LeJ4Z4UAAAAAPZ-TBQtNEnyvKkLvG21WcYbFcwn" data-callback='onSubmit'><%= data.home.cta.action %>
           </button>
@@ -96,6 +97,7 @@ title: Let´s Talk - Mensajería instantánea para grandes empresas
           <input class="form-input input-large u-half-width" name="email" type="email" placeholder="<%= data.home.contact.form.email %>"> o
           <input class="form-input input-large u-half-width" name="telefono" type="tel" placeholder="<%= data.home.contact.form.phone %>">
           <input class="form-textarea input-large u-full-width" name="mensaje" type="text" placeholder="<%= data.home.contact.form.message %>">
+          <input type='hidden' name='form-id' value="contact-form-2-notifications" />
           <button type='submit' class="button button-secondary button-large g-recaptcha" data-sitekey="6LeJ4Z4UAAAAAPZ-TBQtNEnyvKkLvG21WcYbFcwn" data-callback='onSubmit2'><%= data.home.contact.form.submit %></button>
         </form>
       </div>
