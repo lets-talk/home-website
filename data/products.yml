@@ -90,9 +90,9 @@ overview:
     # url: "../bots.html"
 contact:
     title: Hablemos sobre lo que necesitas
-    description: Contactanos llenando el formulario o escribiendonos a
-    action: ventas@letstalk.com
-    url: mailto:ventas@letstalk.com
+    description: Contactanos llenando el formulario o escribiéndonos a
+    action: info@ltmessenger.com
+    url: mailto:info@ltmessenger.com
 
     form:
       name: Nombre
@@ -102,8 +102,8 @@ contact:
       submit: ENVIAR MENSAJE
 
     sales:
-      label: ventas@letstalk.com
-      url: mailto:ventas@letstalk.com
+      label: info@ltmessenger.com
+      url: mailto:info@ltmessenger.com
 
     facebook:
       label: facebook.com/letstalk
